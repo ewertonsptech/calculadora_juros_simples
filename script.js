@@ -11,6 +11,6 @@ function caclular(){
         alert("Numero inválido tente novamente")
     }
   else{
-    resultado.innerHTML = `O Juros ao Total de ${i} Meses Ficaram no Total de R$ ${juros_total.toFixed(1)}`
+    resultado.innerHTML = `O Juros ao Total de ${n} Meses Ficaram no Total de R$ ${juros_total.toFixed(2)}`
 }
 }
