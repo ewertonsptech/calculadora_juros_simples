@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros Simples</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="calculadora_juros">
+        <h1 class="texto">Calculadora de Juros Simples</h1>
+
+        <label class="input_um">Valor do Capital</label>
+        <input type="number" id="capital" class="input_capital">
+        <label class="input_dois">Taxa ao Mês</label>
+        <input type="number" id="taxa_mes" class="input_mes">
+        <label class="input_tres">Quantos meses o Valor da Dívida</label>
+        <input type="number" id="meses_divida" class="input_divida">
+        <button onclick="caclular()">Calcular</button>
+        <center>
+    <div id="resultado" class="conta"></div>
+</center>
+    </div>
+</body>
+</html>
